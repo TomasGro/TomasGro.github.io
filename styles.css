@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.fotoinicio {
+    background-image: url("fotosestudio/estudio.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    background-position: 20%;
+    position: relative;
+}
+
+.fotoinicio1 {
+    position: absolute;
+    background-color: rgba(0,0,0, .4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoinicio1 h2 { 
+    color: white;
+    font-size: 40px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 100px;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.aboutus{
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+.servicio{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.navbar-container {
+    padding: 0.7px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+
+.navbar-container a {
+    display: inline;
+    justify-content: space-between;
+    font-size: 23px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: black;
+    color: #efe8d4;
+}
+
+.navbar-container a:hover {
+    color: #000000;
+    background-color: #efe8d4;
+}
+
+img.logommespacio {
+    width: 300px;
+    height: 275px;
+}
+
+.body { 
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.head-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #000000;
+    height: 450px;
+    padding-top: 35px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icon_face{
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+
+} 
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.titulo-redessociales{
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.pie{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    padding-top: 35px;
+    color: white;
+}
+
+.aboutus h2 { 
+    font-size: 40px;
+}
+.servicio h2 {
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    padding-left: 800px;
+    position: absolute;
+}
+
+.parrafoS {
+    font-size: 40px;
+    padding: 50px 30px;
+    background-color: #ececec;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f5f5dc;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.item:hover {
+    filter: opacity(0.9);
+    transform: scale(1.04);
+}
+
+.contacto-icono{
+    padding-top: 80PX;
+}
+
+.titulo-incluye{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-right: 90px;
+}
+.parrafos-incluye{
+    font-size: 26px;
+    align-items: center;
+}
+
+.bloque1{
+    float: left;
+    padding-left: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bloque2{
+    float: right;
+    padding-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incluye{
+    padding: 40px;
+    background-image: url(fotosestudio/imagen35.jpg);
+    background-position: 20%;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 2000px;
+    background-size: cover;
+    color: white;
+    font-size: 30px;   
+}
+.servicio{
+    padding: 50px 50px;
+}
+.div.servicio{
+    padding: 30px 30px;
+}
+
+.carrusel {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+  
+.carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+  
+.carrusel-item {
+    min-width: 300px;
+    max-width: 300px;
+    height: 481px;
+    outline: 2px solid black;
+    cursor: pointer;
+}
+  
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.carrusel-item:hover {
+    transform: scale(1.2);
+}
